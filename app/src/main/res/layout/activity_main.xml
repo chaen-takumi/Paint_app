@@ -6,5 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.example.paint_app.MyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="155dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
